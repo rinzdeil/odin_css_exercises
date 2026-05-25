@@ -1,4 +1,8 @@
 /* Add CSS Styling */
+* {
+  font-family: "Times", serif;
+}
+
 .odd {
   font-family: "Verdana", "DejaVu Sans", sans-serif;
   background-color: rgb(255,184,193);
