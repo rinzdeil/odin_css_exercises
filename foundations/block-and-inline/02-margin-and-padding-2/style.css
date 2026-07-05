@@ -14,30 +14,28 @@ body {
 .card > * {
   background: #e3f4ff;
   padding: 16px;
+  margin-bottom: 12px;
 }
 
 .title {
   font-size: 28px;
-  margin-bottom: 12px;
 }
 
 .content {
   padding: 24px 16px;
-  margin-bottom: 12px;
 }
 
 .button-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin: 0 auto;
   text-align: center;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
   width: 200px;
   padding: 12px 24px;
-  margin: auto;
+  margin: 0 auto;
   font-size: 24px;
 }
