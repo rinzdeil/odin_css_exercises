@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
-  height: 100vh;
+  height: 100dvh;
   margin: 0;
+  padding: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
 }
@@ -23,4 +24,74 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+/* ##################### SOLUTION ####################### */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+}
+
+.header,
+.footer {
+  height: 3em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1em;
+}
+
+.footer {
+  margin-top: auto;
+  background-color: whitesmoke;
+}
+
+.left-links,
+.right-links {
+  font-size: 14px;
+  display: flex;
+  gap: 1em;
+}
+
+.header li {
+  flex: 1 auto;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 16px;
+}
+
+img {
+  flex: none;
+}
+
+button {
+  padding: 8px 16px;
 }
